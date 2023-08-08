@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: 0;
+    background-color: black;
+}
+.nav1ul{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+.nav1ul li{
+    margin:  3px 10px;
+    list-style: none;
+}
+.nav1ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1ul li a:hover{
+    text-decoration: underline;
+}
+.logo{
+    margin-top: 50px;
+    text-align: center;
+}
+.logobottomtext{
+    margin-top: 20px;
+}
+.nav2{
+    margin-top: 40px;
+}
+.nav2ul{
+    display: flex;
+    justify-content: center;
+}
+.nav2ul li{
+    margin:  3px 6px;
+    list-style: none;
+}
+.nav2ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav2ul li a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+.srchinp{
+    border: none;
+    width: 150px;
+    height: 20px;
+    border-bottom: 1px solid black;
+}
+.srchinp:focus{
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+}
+.mainheading{
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    font-size: 38px;
+    padding: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.iconsnpublshdate{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.pblsh{
+    font-size: 18px;
+}
+.icons{
+    padding: 10px 10px; 
+}
+.icons a{
+    padding: 0 10px;
+    width: 50px;
+}
+.img{
+    margin-top: 40px;
+    text-align: center;
+}
+.paragraph{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.para1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.othpara{
+    font-size: 20px;    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+form{
+    margin-right: auto;
+    margin-left: auto;
+}
+.nameinp{
+    width: 220px;
+    height: 30px;
+    margin-right: 100px;
+    border: none;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+.emailinp{
+    width: 220px;
+    height: 30px;
+    margin-left: 100px;
+    border: none;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+.phinp{
+    width: 220px;
+    height: 30px;
+    margin-right: 100px;
+    border: none;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+.cityinp{
+    width: 220px;
+    height: 30px;
+    margin-left: 100px;
+    border: none;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+textarea{
+    border: none;
+    background-color: lightgray;
+}
+.sbmtbtn{
+   padding: 6px 20px;
+   font-size: 16px;
+    /* width: 80px;
+    height: 30px; */
+    cursor: pointer;
+}
+.sbmtbtn:hover{
+    background-color: black;
+    color: white;
+}
